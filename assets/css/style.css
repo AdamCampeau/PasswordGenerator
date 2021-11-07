@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+    user-select: none;
+    box-sizing:border-box
+}
+
+body {
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    padding:1rem 1.5rem;
+    border: 2px solid black;
+    width: 350px;
+    background-color: white;
+}
+
+
+h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.result_container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0 5px;
+}
+
+.result-conatiner #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.result_container #copy {
+    height: 40px;
+    width: 40px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.result-container #copy:hover {
+    background-color: #1c2541;
+    color: #ffffff;
+}
+input {
+    padding: 18px;
+    user-select: none;
+    height: 55px;
+    width: auto;
+    border-radius: 8px;
+    border:black;
+    outline: none;
+    font-size: 22px;
+}
+
+input::placeholder{
+    font-size: 22px;
+}
+
+#button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    background-color: crimson;
+    display: flex;
+    color: rgb(255,255,255);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#button:hover {
+    color: white;
+    background-color: black;
+}
