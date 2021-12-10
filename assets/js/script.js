@@ -1,8 +1,33 @@
 // Assignment code here
-var uppercase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lowercase="abcdefghijklmnopqrstuvwxyz";
-var symbols="!@#$%^&*()_+<>/";
-var numbers="1234567890";
+const passwordCharSet = {
+  uppercase: ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
+  lowercase: ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+  symbols: ["!","@","#","$","%","^","&","*","(",")","_","+","<",">","/","?"],
+  numbers: ["1","2","3","4","5","6","7","8","9","0"],
+};
+
+var uppercasePrompt=confirm ('Would you like to user upper case characters?');
+var lowercasePrompt=confirm ('Would you like to use lower case characters?');
+var symbolsPrompt=confirm ('Would you like to include symbols?');
+var numbersPrompt=confirm ('Would you like to include numbers?');
+var lengthPrompt= prompt ('Please select a valid password length, must be between 8 - 128 characters')
+
+if (uppercasePrompt === true) {
+  passwordCharSet.uppercase + passwordText
+}
+
+if (lowercasePrompt === true) {
+  passwordCharSet.lowercase + passwordText
+}
+
+if (symbolsPrompt === true) {
+  passwordCharSet.symbols + password
+}
+
+if (numbersPrompt === true) {
+  passwordCharSet.numbers + password
+}
+
 
 
 // Get references to the #generate element
