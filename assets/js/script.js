@@ -1,4 +1,6 @@
 // Assignment code here
+var passwordText='';
+
 const passwordCharSet = {
   uppercase: ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
   lowercase: ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
@@ -12,6 +14,7 @@ var symbolsPrompt=confirm ('Would you like to include symbols?');
 var numbersPrompt=confirm ('Would you like to include numbers?');
 var lengthPrompt= prompt ('Please select a valid password length, must be between 8 - 128 characters')
 
+//if prompt is true,
 if (uppercasePrompt === true) {
   passwordCharSet.uppercase + passwordText
 }
@@ -21,12 +24,15 @@ if (lowercasePrompt === true) {
 }
 
 if (symbolsPrompt === true) {
-  passwordCharSet.symbols + password
+  passwordCharSet.symbols + passwordText
 }
 
 if (numbersPrompt === true) {
-  passwordCharSet.numbers + password
+  passwordCharSet.numbers + passwordText
 }
+
+// input from prompt sets length of password
+let lengthPrompt=passwordText.length;
 
 
 
