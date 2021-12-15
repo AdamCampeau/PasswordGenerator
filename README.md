@@ -26,5 +26,14 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
+## Example
+
+![image](https://user-images.githubusercontent.com/91493786/146237217-b6a406b4-b2d1-41f3-bf6e-20cd3fc54458.png)
+
+![image](https://user-images.githubusercontent.com/91493786/146237354-906e9f53-52fc-4c83-b955-810942bdf381.png)
+
+## Future Development
+- A copy function
+- Save password to a database
 
 ### Adam Campeau 2021-11-06
