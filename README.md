@@ -36,4 +36,8 @@ THEN the password is either displayed in an alert or written to the page
 - A copy function
 - Save password to a database
 
+## Links
+https://github.com/AdamCampeau/Password_Generator
+https://adamcampeau.github.io/Password_Generator/
+
 ### Adam Campeau 2021-11-06
